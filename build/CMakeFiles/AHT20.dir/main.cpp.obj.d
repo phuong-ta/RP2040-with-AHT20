@@ -66,4 +66,5 @@ CMakeFiles/AHT20.dir/main.cpp.obj: \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\include/hardware/i2c.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/i2c.h \
- C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/i2c.h
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/i2c.h \
+ C:\VSARM\sdk\pico\RP2040-with-AHT20\AHT20/AHT20.h

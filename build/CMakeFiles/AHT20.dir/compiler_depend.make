@@ -2752,6 +2752,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/un
 CMakeFiles/AHT20.dir/main.cpp.obj: C:/VSARM/sdk/pico/RP2040-with-AHT20/main.cpp \
   C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
   C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  C:/VSARM/sdk/pico/RP2040-with-AHT20/AHT20/AHT20.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
   C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico.h \
@@ -2797,14 +2798,21 @@ CMakeFiles/AHT20.dir/main.cpp.obj: C:/VSARM/sdk/pico/RP2040-with-AHT20/main.cpp 
   C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/c++/12.3.1/cassert \
   C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/c++/12.3.1/pstl/pstl_config.h \
   C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/machine/_default_types.h \
+  C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/machine/_types.h \
   C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/machine/ieeefp.h \
   C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/newlib.h \
   C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/stdint.h \
+  C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/stdio.h \
   C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/sys/_intsup.h \
   C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/sys/_stdint.h \
+  C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/sys/_types.h \
   C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/sys/cdefs.h \
   C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/sys/config.h \
   C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/sys/features.h \
+  C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/sys/lock.h \
+  C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/sys/reent.h \
+  C:/VSARM/armcc/12.3\ rel1/arm-none-eabi/include/sys/stdio.h \
+  C:/VSARM/armcc/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdarg.h \
   C:/VSARM/armcc/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdbool.h \
   C:/VSARM/armcc/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
   C:/VSARM/armcc/12.3\ rel1/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h
