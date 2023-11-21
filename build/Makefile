@@ -180,6 +180,30 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+AHT20/AHT20.obj: AHT20/AHT20.cpp.obj
+.PHONY : AHT20/AHT20.obj
+
+# target to build an object file
+AHT20/AHT20.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/AHT20/AHT20.cpp.obj
+.PHONY : AHT20/AHT20.cpp.obj
+
+AHT20/AHT20.i: AHT20/AHT20.cpp.i
+.PHONY : AHT20/AHT20.i
+
+# target to preprocess a source file
+AHT20/AHT20.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/AHT20/AHT20.cpp.i
+.PHONY : AHT20/AHT20.cpp.i
+
+AHT20/AHT20.s: AHT20/AHT20.cpp.s
+.PHONY : AHT20/AHT20.s
+
+# target to generate assembly for a file
+AHT20/AHT20.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/AHT20/AHT20.cpp.s
+.PHONY : AHT20/AHT20.cpp.s
+
 C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -932,6 +956,30 @@ C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+
+# target to build an object file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
@@ -1636,29 +1684,29 @@ C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-main.obj: main.c.obj
+main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/main.c.obj
-.PHONY : main.c.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-main.i: main.c.i
+main.i: main.cpp.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -1673,6 +1721,9 @@ help:
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 	@echo ... AHT20
 	@echo ... bs2_default
+	@echo ... AHT20/AHT20.obj
+	@echo ... AHT20/AHT20.i
+	@echo ... AHT20/AHT20.s
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
@@ -1767,6 +1818,9 @@ help:
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
