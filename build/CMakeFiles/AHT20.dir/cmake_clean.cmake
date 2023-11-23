@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "AHT20.pdb"
   "CMakeFiles/AHT20.dir/AHT20/AHT20.cpp.obj"
   "CMakeFiles/AHT20.dir/AHT20/AHT20.cpp.obj.d"
+  "CMakeFiles/AHT20.dir/BTN/BTN.cpp.obj"
+  "CMakeFiles/AHT20.dir/BTN/BTN.cpp.obj.d"
   "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
   "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d"
   "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"

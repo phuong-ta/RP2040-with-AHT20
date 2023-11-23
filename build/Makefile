@@ -204,6 +204,30 @@ AHT20/AHT20.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/AHT20/AHT20.cpp.s
 .PHONY : AHT20/AHT20.cpp.s
 
+BTN/BTN.obj: BTN/BTN.cpp.obj
+.PHONY : BTN/BTN.obj
+
+# target to build an object file
+BTN/BTN.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/BTN/BTN.cpp.obj
+.PHONY : BTN/BTN.cpp.obj
+
+BTN/BTN.i: BTN/BTN.cpp.i
+.PHONY : BTN/BTN.i
+
+# target to preprocess a source file
+BTN/BTN.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/BTN/BTN.cpp.i
+.PHONY : BTN/BTN.cpp.i
+
+BTN/BTN.s: BTN/BTN.cpp.s
+.PHONY : BTN/BTN.s
+
+# target to generate assembly for a file
+BTN/BTN.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AHT20.dir\build.make CMakeFiles/AHT20.dir/BTN/BTN.cpp.s
+.PHONY : BTN/BTN.cpp.s
+
 C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -1724,6 +1748,9 @@ help:
 	@echo ... AHT20/AHT20.obj
 	@echo ... AHT20/AHT20.i
 	@echo ... AHT20/AHT20.s
+	@echo ... BTN/BTN.obj
+	@echo ... BTN/BTN.i
+	@echo ... BTN/BTN.s
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s

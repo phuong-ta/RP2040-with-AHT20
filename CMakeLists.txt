@@ -22,6 +22,7 @@ add_compile_options(-Wall
 add_executable(${PROJECT_NAME} 
     main.cpp
     AHT20/AHT20.cpp
+    BTN/BTN.cpp
 )
 
 # Create map/bin/hex/uf2 files
@@ -31,6 +32,7 @@ pico_add_extra_outputs(${PROJECT_NAME})
 target_link_libraries(${PROJECT_NAME} 
     pico_stdlib
     hardware_i2c
+    hardware_gpio
 )
 
 # Enable usb output, disable uart output

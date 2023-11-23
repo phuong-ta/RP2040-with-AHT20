@@ -178,6 +178,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "C:/VSARM/sdk/pico/RP2040-with-AHT20/AHT20/AHT20.cpp" "CMakeFiles/AHT20.dir/AHT20/AHT20.cpp.obj" "gcc" "CMakeFiles/AHT20.dir/AHT20/AHT20.cpp.obj.d"
+  "C:/VSARM/sdk/pico/RP2040-with-AHT20/BTN/BTN.cpp" "CMakeFiles/AHT20.dir/BTN/BTN.cpp.obj" "gcc" "CMakeFiles/AHT20.dir/BTN/BTN.cpp.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   "C:/VSARM/sdk/pico/RP2040-with-AHT20/main.cpp" "CMakeFiles/AHT20.dir/main.cpp.obj" "gcc" "CMakeFiles/AHT20.dir/main.cpp.obj.d"
   )
