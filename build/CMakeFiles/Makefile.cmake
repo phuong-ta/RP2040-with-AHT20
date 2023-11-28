@@ -54,6 +54,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/VSARM/sdk/pico/pico-sdk/src/CMakeLists.txt"
   "C:/VSARM/sdk/pico/pico-sdk/src/board_setup.cmake"
   "C:/VSARM/sdk/pico/pico-sdk/src/boards/generic_board.cmake"
+  "C:/VSARM/sdk/pico/pico-sdk/src/boards/pico_w.cmake"
   "C:/VSARM/sdk/pico/pico-sdk/src/common/CMakeLists.txt"
   "C:/VSARM/sdk/pico/pico-sdk/src/common/boot_picoboot/CMakeLists.txt"
   "C:/VSARM/sdk/pico/pico-sdk/src/common/boot_uf2/CMakeLists.txt"

@@ -23,6 +23,7 @@ add_executable(${PROJECT_NAME}
     main.cpp
     AHT20/AHT20.cpp
     BTN/BTN.cpp
+    BUZZER/Buzzer.cpp
 )
 
 # Create map/bin/hex/uf2 files
@@ -33,7 +34,11 @@ target_link_libraries(${PROJECT_NAME}
     pico_stdlib
     hardware_i2c
     hardware_gpio
+    hardware_pwm
+    pico_cyw43_arch_lwip_threadsafe_background
+    pico_lwip
 )
+target_include_directories(${PROJECT_NAME}  PRIVATE ${CMAKE_CURRENT_LIST_DIR})
 
 # Enable usb output, disable uart output
 pico_enable_stdio_usb(${PROJECT_NAME} 1)

@@ -21,7 +21,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/ti
  C:\VSARM\sdk\pico\RP2040-with-AHT20\build\generated\pico_base/pico/version.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
  C:\VSARM\sdk\pico\RP2040-with-AHT20\build\generated\pico_base/pico/config_autogen.h \
- C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
+ C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico_w.h \
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/platform_defs.h \

@@ -35,7 +35,7 @@ CMakeFiles/AHT20.dir/main.cpp.obj: \
  C:\VSARM\sdk\pico\RP2040-with-AHT20\build\generated\pico_base/pico/version.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
  C:\VSARM\sdk\pico\RP2040-with-AHT20\build\generated\pico_base/pico/config_autogen.h \
- C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
+ C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico_w.h \
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/platform_defs.h \
@@ -67,5 +67,73 @@ CMakeFiles/AHT20.dir/main.cpp.obj: \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\include/hardware/i2c.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/i2c.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/i2c.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pwm\include/hardware/pwm.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/pwm.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pwm.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\include/pico/cyw43_arch.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src/cyw43.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src/cyw43_config.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\include/cyw43_configport.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/netif.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/opt.h \
+ C:\VSARM\sdk\pico\RP2040-with-AHT20/lwipopts.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/debug.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/arch.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_lwip\include/arch/cc.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\sys\time.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\sys\_timeval.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\sys\types.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\machine\endian.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\machine\_endian.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\sys\select.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\sys\_sigset.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\sys\timespec.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\sys\_timespec.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\sys\_pthreadtypes.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\sys\sched.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\machine\types.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\time.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\machine\time.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\sys\_locale.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\machine\_time.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_rand\include/pico/rand.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\c++\12.3.1\stdlib.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\c++\12.3.1\cstdlib \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\stdlib.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\machine\stdlib.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\alloca.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\c++\12.3.1\bits\std_abs.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\inttypes.h \
+ c:\vsarm\armcc\125863~1.3re\lib\gcc\arm-none-eabi\12.3.1\include-fixed\limits.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\ctype.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/err.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/ip_addr.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/def.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/ip4_addr.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/ip6_addr.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/def.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/pbuf.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/stats.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/mem.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/memp.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/priv/memp_std.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/priv/memp_priv.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/priv/mem_priv.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/dhcp.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/udp.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/ip.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/ip4.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/prot/ip4.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/ip6.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/prot/ip.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\include/lwip/prot/udp.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src/cyw43_ll.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\string.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\strings.h \
+ c:\vsarm\armcc\125863~1.3re\arm-none-eabi\include\sys\string.h \
+ C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src/cyw43_country.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\include/pico/async_context.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\include/pico/cyw43_arch/arch_threadsafe_background.h \
  C:\VSARM\sdk\pico\RP2040-with-AHT20\AHT20/AHT20.h \
- C:\VSARM\sdk\pico\RP2040-with-AHT20\BTN/BTN.h
+ C:\VSARM\sdk\pico\RP2040-with-AHT20\BTN/BTN.h \
+ C:\VSARM\sdk\pico\RP2040-with-AHT20\BUZZER/Buzzer.h

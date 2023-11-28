@@ -110,10 +110,24 @@ CMakeFiles/AHT20.dir/BTN/BTN.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AHT20.dir/BTN/BTN.cpp.s"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\VSARM\sdk\pico\RP2040-with-AHT20\BTN\BTN.cpp -o CMakeFiles\AHT20.dir\BTN\BTN.cpp.s
 
+CMakeFiles/AHT20.dir/BUZZER/Buzzer.cpp.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/BUZZER/Buzzer.cpp.obj: C:/VSARM/sdk/pico/RP2040-with-AHT20/BUZZER/Buzzer.cpp
+CMakeFiles/AHT20.dir/BUZZER/Buzzer.cpp.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AHT20.dir/BUZZER/Buzzer.cpp.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AHT20.dir/BUZZER/Buzzer.cpp.obj -MF CMakeFiles\AHT20.dir\BUZZER\Buzzer.cpp.obj.d -o CMakeFiles\AHT20.dir\BUZZER\Buzzer.cpp.obj -c C:\VSARM\sdk\pico\RP2040-with-AHT20\BUZZER\Buzzer.cpp
+
+CMakeFiles/AHT20.dir/BUZZER/Buzzer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AHT20.dir/BUZZER/Buzzer.cpp.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\VSARM\sdk\pico\RP2040-with-AHT20\BUZZER\Buzzer.cpp > CMakeFiles\AHT20.dir\BUZZER\Buzzer.cpp.i
+
+CMakeFiles/AHT20.dir/BUZZER/Buzzer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AHT20.dir/BUZZER/Buzzer.cpp.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\VSARM\sdk\pico\RP2040-with-AHT20\BUZZER\Buzzer.cpp -o CMakeFiles\AHT20.dir\BUZZER\Buzzer.cpp.s
+
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdli
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpi
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_platform\platform.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/pla
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/cl
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/syn
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -196,7 +210,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -210,7 +224,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq_
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\sem.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\sem.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\sem.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.s: cm
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\lock_core.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\mutex.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\mutex.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.s: 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_sync\critical_section.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_se
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_time\time.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_time\time.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.s: c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_time\timeout_helper.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_hel
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/ti
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\datetime.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_util\datetime.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\pheap.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_util\pheap.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.s: 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\common\pico_util\queue.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\common\pico_util\queue.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.s: 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uar
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vre
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -433,7 +447,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xos
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -447,7 +461,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -461,7 +475,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runt
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_printf\printf.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -474,7 +488,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/print
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -488,7 +502,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -501,7 +515,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/boot
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_divider\divider.S
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -514,7 +528,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divi
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -528,7 +542,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/doubl
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -542,7 +556,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/doubl
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_math.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -555,7 +569,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/doubl
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -568,7 +582,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/doubl
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -581,7 +595,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pi
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -595,7 +609,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -609,7 +623,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_math.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -622,7 +636,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -636,7 +650,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -649,7 +663,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -662,7 +676,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -676,7 +690,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_lin
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -690,7 +704,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_lin
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -704,7 +718,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_lin
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -718,7 +732,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -732,7 +746,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/re
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -746,7 +760,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/st
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -760,7 +774,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/st
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -774,7 +788,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/un
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -788,7 +802,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/fl
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -802,7 +816,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspber
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -816,7 +830,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspber
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\device\usbd.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -830,7 +844,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -844,7 +858,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_cont
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -858,7 +872,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audi
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -872,7 +886,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_de
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -886,7 +900,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_de
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -900,7 +914,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -914,7 +928,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_de
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -928,7 +942,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -942,7 +956,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_de
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -956,7 +970,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rn
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -970,7 +984,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_de
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -984,7 +998,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usb
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -998,7 +1012,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/vendor/ven
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1012,7 +1026,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/vide
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\tusb.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\tusb.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\tusb.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1026,7 +1040,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1040,7 +1054,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1054,7 +1068,7 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_u
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/AHT20.dir/flags.make
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c
 
 CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -1065,11 +1079,1468 @@ CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
 
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_lwip\lwip_nosys.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_rand\rand.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_rand\rand.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_rand\rand.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_rand\rand.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_rand\rand.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_rand\rand.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_rand\rand.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\init.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\init.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\init.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\init.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\init.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\init.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\init.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\def.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\def.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\def.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\def.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\def.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\def.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\def.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\dns.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\dns.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\dns.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\dns.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\dns.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\dns.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\dns.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\inet_chksum.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\inet_chksum.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\inet_chksum.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\inet_chksum.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\inet_chksum.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\inet_chksum.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\inet_chksum.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ip.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ip.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ip.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ip.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ip.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ip.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ip.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\mem.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\mem.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\mem.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\mem.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\mem.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\mem.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\mem.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\memp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\memp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\memp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\memp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\memp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\memp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\memp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\netif.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\netif.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\netif.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\netif.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\netif.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\netif.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\netif.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\pbuf.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\pbuf.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\pbuf.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\pbuf.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\pbuf.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\pbuf.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\pbuf.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\raw.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\raw.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\raw.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\raw.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\raw.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\raw.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\raw.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\stats.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\stats.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\stats.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\stats.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\stats.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\stats.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\stats.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\sys.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\sys.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\sys.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\sys.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\sys.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\sys.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\sys.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_alloc.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_alloc.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_alloc.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_alloc.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_alloc.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_alloc.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_alloc.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_tcp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_tcp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_tcp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_tcp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_tcp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_tcp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\altcp_tcp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_in.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_in.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_in.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_in.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_in.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_in.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_in.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_out.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_out.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_out.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_out.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_out.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_out.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\tcp_out.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\timeouts.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\timeouts.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\timeouts.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\timeouts.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\timeouts.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\timeouts.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\timeouts.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\udp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\udp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\udp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\udp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\udp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\udp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\udp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\autoip.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\autoip.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\autoip.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\autoip.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\dhcp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\etharp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\etharp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\etharp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\etharp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\icmp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\icmp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\icmp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\icmp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\igmp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\igmp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\igmp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\igmp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_frag.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\ip4_addr.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\acd.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\acd.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\acd.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\acd.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\acd.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\acd.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv4\acd.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\dhcp6.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ethip6.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\icmp6.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\inet6.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\inet6.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\inet6.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\inet6.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_addr.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\ip6_frag.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\mld6.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\mld6.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\mld6.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\mld6.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\nd6.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\nd6.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\nd6.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\core\ipv6\nd6.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_lib.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_lib.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_lib.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_lib.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_lib.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_lib.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_lib.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_msg.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_msg.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_msg.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_msg.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_msg.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_msg.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\api_msg.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\err.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\err.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\err.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\err.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\err.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\err.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\err.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\if_api.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\if_api.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\if_api.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\if_api.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\if_api.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\if_api.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\if_api.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netbuf.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netbuf.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netbuf.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netbuf.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netbuf.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netbuf.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netbuf.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netdb.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netdb.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netdb.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netdb.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netdb.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netdb.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netdb.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netifapi.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netifapi.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netifapi.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netifapi.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netifapi.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netifapi.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\netifapi.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\sockets.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\sockets.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\sockets.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\sockets.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\sockets.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\sockets.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\sockets.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\tcpip.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\tcpip.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\tcpip.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\tcpip.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\tcpip.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\tcpip.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\api\tcpip.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ethernet.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ethernet.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ethernet.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ethernet.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ethernet.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ethernet.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ethernet.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\bridgeif_fdb.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\slipif.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\slipif.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\slipif.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\slipif.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\slipif.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\slipif.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\slipif.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_common.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_common.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_common.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_common.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\lowpan6_ble.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\zepif.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\zepif.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\zepif.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\zepif.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\zepif.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\zepif.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\zepif.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\auth.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\auth.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\auth.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\auth.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\auth.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\auth.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\auth.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ccp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ccp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ccp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ccp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-md5.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap_ms.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\chap-new.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\demand.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\demand.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\demand.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\demand.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\demand.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\demand.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\demand.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eap.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eap.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eap.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eap.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eap.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eap.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eap.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ecp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ecp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ecp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ecp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eui64.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eui64.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eui64.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\eui64.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\fsm.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\fsm.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\fsm.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\fsm.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipcp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ipv6cp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\lcp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\lcp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\lcp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\lcp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\magic.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\magic.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\magic.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\magic.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\magic.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\magic.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\magic.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\mppe.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\mppe.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\mppe.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\mppe.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\multilink.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\multilink.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\multilink.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\multilink.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ppp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ppp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ppp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\ppp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppapi.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppcrypt.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppoe.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppol2tp.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppos.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppos.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppos.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\pppos.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\upap.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\upap.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\upap.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\upap.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\upap.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\upap.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\upap.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\utils.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\utils.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\utils.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\utils.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\utils.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\utils.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\utils.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\vj.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\vj.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\vj.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\vj.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\vj.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\vj.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\vj.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\arc4.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\des.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md4.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\md5.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\lwip\src\netif\ppp\polarssl\sha1.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: C:/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj -c C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.s
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/AHT20.dir/flags.make
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/AHT20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj.d -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c > CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.i
+
+CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
+	C:\VSARM\armcc\125863~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c -o CMakeFiles\AHT20.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.s
+
 # Object files for target AHT20
 AHT20_OBJECTS = \
 "CMakeFiles/AHT20.dir/main.cpp.obj" \
 "CMakeFiles/AHT20.dir/AHT20/AHT20.cpp.obj" \
 "CMakeFiles/AHT20.dir/BTN/BTN.cpp.obj" \
+"CMakeFiles/AHT20.dir/BUZZER/Buzzer.cpp.obj" \
 "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1138,7 +2609,111 @@ AHT20_OBJECTS = \
 "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj" \
+"CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
 
 # External object files for target AHT20
 AHT20_EXTERNAL_OBJECTS =
@@ -1146,6 +2721,7 @@ AHT20_EXTERNAL_OBJECTS =
 AHT20.elf: CMakeFiles/AHT20.dir/main.cpp.obj
 AHT20.elf: CMakeFiles/AHT20.dir/AHT20/AHT20.cpp.obj
 AHT20.elf: CMakeFiles/AHT20.dir/BTN/BTN.cpp.obj
+AHT20.elf: CMakeFiles/AHT20.dir/BUZZER/Buzzer.cpp.obj
 AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1215,11 +2791,115 @@ AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.
 AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+AHT20.elf: CMakeFiles/AHT20.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 AHT20.elf: CMakeFiles/AHT20.dir/build.make
 AHT20.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 AHT20.elf: CMakeFiles/AHT20.dir/objects1.rsp
 AHT20.elf: CMakeFiles/AHT20.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking CXX executable AHT20.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\VSARM\sdk\pico\RP2040-with-AHT20\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Linking CXX executable AHT20.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AHT20.dir\link.txt --verbose=$(VERBOSE)
 	"C:\VSARM\armcc\12.3 rel1\bin\arm-none-eabi-objcopy.exe" -Oihex C:/VSARM/sdk/pico/RP2040-with-AHT20/build/AHT20.elf AHT20.hex
 	"C:\VSARM\armcc\12.3 rel1\bin\arm-none-eabi-objcopy.exe" -Obinary C:/VSARM/sdk/pico/RP2040-with-AHT20/build/AHT20.elf AHT20.bin
